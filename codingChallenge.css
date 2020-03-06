@@ -1,0 +1,33 @@
+body {
+    font-family:'Roboto Mono';
+    background-color: #4558d1;
+    color: #4558d1;
+}
+
+h1 {
+    color: #fafafa;
+    font-weight: 700;
+}
+
+.pagination {
+    display: inline-block;
+    background-color: #fafafa;
+}
+
+.pagination button {
+    color: #4558d1;
+    float: left;
+    padding: 16px 16px;
+}
+
+.pagination button.active {
+    background-color: #4558d1;
+    color: #fafafa;
+}
+
+.pagination button:hover {
+    background-color: #4558d1;
+    color: #fafafa;
+    cursor: pointer;
+}
+
